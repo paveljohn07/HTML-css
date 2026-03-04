@@ -1,2 +1,4 @@
 # HTML-css
-Curso de HTML5 e CSS3 do Curso em Video
+Codigos de HTML5 e CSS3
+
+Todos os codigos foram feitos com muita dedicacao por Pavel John
