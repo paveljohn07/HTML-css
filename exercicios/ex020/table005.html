@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width:500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td{
+            border:  1px solid black;
+            padding: 8px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        col.cnome{
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicio de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Idade</th>
+            <th>Profissao</th>
+        </tr>
+        <tr>
+            <td>Pavel John</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Software developer and Ethical Hacker</td>
+        </tr>
+        <tr>
+            <td>Edwards</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Analista de sistemas</td>
+        </tr>
+        <tr>
+            <td>Yannick. C</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Web developer</td>
+        </tr>
+        <tr>
+            <td>Suhaylla</td>
+            <td>F</td>
+            <td>18</td>
+            <td>Medica</td>
+        </tr>
+        <tr>
+            <td>Poli</td>
+            <td>F</td>
+            <td>18</td>
+            <td>Nutricionista</td>
+        </tr>
+        <tr>
+            <td>Aissa</td>
+            <td>F</td>
+            <td>17</td>
+            <td>Contabilista</td>
+        </tr>
+    </table>
+</body>
+</html>
